@@ -1,0 +1,65 @@
+@media(max-width: 768px) {
+    body main {
+        justify-content: start;
+        width: 375px;
+    }
+    body main .container {
+        flex-wrap: wrap;
+        width: 375px;
+        height: 809px;
+        border-radius: 0;
+    }
+    body main .container .info-left {
+        border-radius: 0 0 30px 30px;
+        height: 44%;
+    }
+    body main .container .info-left h2 {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+    body main .container .info-left div {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-top: 24px;
+    }
+    body main .container .info-left div span {
+        font-size: 56px;
+        margin-top: 3px;
+    }
+    body main .container .info-left div h3 {
+        font-size: 16px;
+        margin-top: -2px;
+    }
+    body main .container .info-left h1 {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    body main .container .info-left p {
+        font-size: 15px;
+        letter-spacing: .4px;
+        line-height: 21px;
+        width: 270px;
+        margin-top: 8px;
+    }
+    body main .container .info-rigth {
+        height: 70%;
+    }
+    body main .container .info-rigth h2 {
+        font-size: 18px;
+        margin: 24px 0 25px 33px;
+    }
+    body main .container .info-rigth ul li {
+        width: 317px;
+        height: 55px;
+        border-radius: 10px;
+    }
+    body main .container .info-rigth ul li span {
+        font-size: 16px;
+    }
+    body main .container .info-rigth button {
+        width: 317px;
+        height: 56px;
+        margin-top: 24px;
+    }
+}

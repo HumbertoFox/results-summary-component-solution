@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+:root {
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100vh;
+}
+body main .container {
+    display: flex;
+    width: 736px;
+    height: 513px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 50px 1px rgba(0, 0, 255, 0.1);
+}
+body main .container .info-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+    border-radius: 30px;
+    text-align: center;
+}
+body main .container .info-left h2 {
+    color: var(--Light-lavender);
+    margin-top: 39px;
+    font-weight: 700;
+}
+body main .container .info-left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+    margin-top: 35px;
+}
+body main .container .info-left div span {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--White);
+}
+body main .container .info-left div h3 {
+    color: var(--Light-lavender);
+    margin-top: -10px;
+    font-weight: 700;
+}
+body main .container .info-left h1 {
+    color: var(--White);
+    margin-top: 27px;
+    font-weight: 800;
+}
+body main .container .info-left p {
+    color: var(--Light-lavender);
+    font-weight: 500;
+    letter-spacing: .9px;
+    line-height: 23px;
+    width: 250px;
+    margin-top: 15px;
+}
+body main .container .info-rigth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body main .container .info-rigth h2 {
+    align-self: flex-start;
+    font-weight: 800;
+    margin: 38px 0 29px 40px;
+}
+body main .container .info-rigth ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+body main .container .info-rigth ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    height: 55px;
+    border-radius: 10px;
+    padding: 0 14px 0 16px;
+}
+body main .container .info-rigth ul li span:first-child {
+    display: flex;
+    gap: 14px;
+}
+body main .container .info-rigth ul li span strong:last-child {
+    color: darkgray;
+}
+body main .container .info-rigth ul li.li-reaction {
+    background-color: hsla(0, 100%, 67%, .08);
+}
+body main .container .info-rigth ul li.li-reaction span:first-child {
+    color: var(--Light-red);
+}
+body main .container .info-rigth ul li.li-memory {
+    background-color: hsla(39, 100%, 56%, .05);
+}
+body main .container .info-rigth ul li.li-memory span:first-child {
+    color: var(--Orangey-yellow);
+}
+body main .container .info-rigth ul li.li-verbal {
+    background-color: hsla(166, 100%, 37%, .05);
+}
+body main .container .info-rigth ul li.li-verbal span:first-child {
+    color: var(--Green-teal);
+}
+body main .container .info-rigth ul li.li-visual {
+    background-color: hsla(234, 85%, 45%, .05);
+}
+body main .container .info-rigth ul li.li-visual span:first-child {
+    color: var(--Cobalt-blue);
+}
+body main .container .info-rigth ul li span {
+    font-size: 18px;
+    font-weight: 500;
+}
+body main .container .info-rigth ul li span strong {
+    margin-right: 4px;
+}
+body main .container .info-rigth button {
+    width: 290px;
+    height: 55px;
+    align-self: center;
+    border-radius: 30px;
+    margin-top: 43px;
+    color: var(--White);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: var(--Dark-gray-blue);
+    border: none;
+    cursor: url(../images/pointer.svg), auto;
+}
+body main .container .info-rigth button:hover {
+    background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+}
+body main .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body main .attribution a {
+  color: hsl(228, 45%, 44%);
+}
