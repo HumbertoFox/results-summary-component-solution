@@ -42,22 +42,22 @@
         width: 270px;
         margin-top: 8px;
     }
-    body main .container .info-rigth {
+    body main .container .info-right {
         height: 70%;
     }
-    body main .container .info-rigth h2 {
+    body main .container .info-right h2 {
         font-size: 18px;
         margin: 24px 0 25px 33px;
     }
-    body main .container .info-rigth ul li {
+    body main .container .info-right ul li {
         width: 317px;
         height: 55px;
         border-radius: 10px;
     }
-    body main .container .info-rigth ul li span {
+    body main .container .info-right ul li span {
         font-size: 16px;
     }
-    body main .container .info-rigth button {
+    body main .container .info-right button {
         width: 317px;
         height: 56px;
         margin-top: 24px;

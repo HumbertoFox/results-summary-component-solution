@@ -82,26 +82,26 @@ body main .container .info-left p {
     width: 250px;
     margin-top: 15px;
 }
-body main .container .info-rigth {
+body main .container .info-right {
     display: flex;
     flex-direction: column;
     text-align: center;
     flex: 1;
     font-family: 'Hanken Grotesk', sans-serif;
 }
-body main .container .info-rigth h2 {
+body main .container .info-right h2 {
     align-self: flex-start;
     color: var(--Dark-gray-blue);
     font-weight: 800;
     margin: 38px 0 29px 40px;
 }
-body main .container .info-rigth ul {
+body main .container .info-right ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 17px;
 }
-body main .container .info-rigth ul li {
+body main .container .info-right ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,45 +110,45 @@ body main .container .info-rigth ul li {
     border-radius: 10px;
     padding: 0 14px 0 16px;
 }
-body main .container .info-rigth ul li span:first-child {
+body main .container .info-right ul li span:first-child {
     display: flex;
     gap: 14px;
 }
-body main .container .info-rigth ul li span strong:last-child {
+body main .container .info-right ul li span strong:last-child {
     color: darkgray;
 }
-body main .container .info-rigth ul li.li-reaction {
+body main .container .info-right ul li.li-reaction {
     background-color: hsla(0, 100%, 67%, .08);
 }
-body main .container .info-rigth ul li.li-reaction span:first-child {
+body main .container .info-right ul li.li-reaction span:first-child {
     color: var(--Light-red);
 }
-body main .container .info-rigth ul li.li-memory {
+body main .container .info-right ul li.li-memory {
     background-color: hsla(39, 100%, 56%, .05);
 }
-body main .container .info-rigth ul li.li-memory span:first-child {
+body main .container .info-right ul li.li-memory span:first-child {
     color: var(--Orangey-yellow);
 }
-body main .container .info-rigth ul li.li-verbal {
+body main .container .info-right ul li.li-verbal {
     background-color: hsla(166, 100%, 37%, .05);
 }
-body main .container .info-rigth ul li.li-verbal span:first-child {
+body main .container .info-right ul li.li-verbal span:first-child {
     color: var(--Green-teal);
 }
-body main .container .info-rigth ul li.li-visual {
+body main .container .info-right ul li.li-visual {
     background-color: hsla(234, 85%, 45%, .05);
 }
-body main .container .info-rigth ul li.li-visual span:first-child {
+body main .container .info-right ul li.li-visual span:first-child {
     color: var(--Cobalt-blue);
 }
-body main .container .info-rigth ul li span {
+body main .container .info-right ul li span {
     font-size: 18px;
     font-weight: 500;
 }
-body main .container .info-rigth ul li span strong {
+body main .container .info-right ul li span strong {
     margin-right: 4px;
 }
-body main .container .info-rigth button {
+body main .container .info-right button {
     width: 290px;
     height: 55px;
     align-self: center;
@@ -162,7 +162,7 @@ body main .container .info-rigth button {
     border: none;
     cursor: url(../images/pointer.svg), auto;
 }
-body main .container .info-rigth button:hover {
+body main .container .info-right button:hover {
     background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
 body main .attribution {
