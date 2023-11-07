@@ -7,7 +7,7 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 
 <div align="center">
 
-  <img src="https://github.com/HumbertoFox/repository/assets/126817628/aacf34ef-8720-4cc9-9822-63edc904d61c" width="400px"/>
+  <img src="https://github.com/HumbertoFox/repository/assets/126817628/acef5dce-55ed-4128-8803-c3c110ed4b71" width="400px"/>
 
 </div>
 
